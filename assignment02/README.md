@@ -1,0 +1,2 @@
+# Assignment 02
+Validacion de datos. Se necesita crear un programa donde el usuario inserte nombre de usuario y clave. Si es el caso de que estan incorrectos estos datos se mostrara un mensaje de error y despues de 3 intentos al usuario se le debe mostrar un mensaje como este: "Ha sido detectado, usted no es de los nuestros"

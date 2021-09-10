@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    height: 650px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm{
+    background: #fff;
+    padding: 20px 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #fff;
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding: 0 0 60px 0;
+}
+
+input{
+    background: none;
+    color: #000;    
+    font-size: 15px;
+    padding: 10px 10px 10px 5px;
+    margin: 0 0 10px 0;
+    display: block;
+    width: 100%;
+    border: 2px solid #f7797d ;
+}
+
+#submit, #delete{
+    margin: 30px 0 0 0;
+    font-size: 20px;
+    width: 49%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+#submit:hover, #delete:hover{
+    background-color: #f7797d;
+}
